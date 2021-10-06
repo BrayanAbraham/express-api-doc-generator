@@ -1,0 +1,22 @@
+{
+  "name": "express-api-doc-generator",
+  "version": "1.0.0",
+  "description": "Generate Express API Documentation ",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrayanAbraham/express-api-doc-generator.git"
+  },
+  "author": "Brayan Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrayanAbraham/express-api-doc-generator/issues"
+  },
+  "homepage": "https://github.com/BrayanAbraham/express-api-doc-generator#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
