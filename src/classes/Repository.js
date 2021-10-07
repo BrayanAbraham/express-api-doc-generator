@@ -1,5 +1,4 @@
 const path = require("path");
-const fs = require("fs");
 const File = require("./File");
 
 class Repository {
