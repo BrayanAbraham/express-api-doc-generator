@@ -1,13 +1,12 @@
-const cmd = require("./cmd");
+const path = require("path");
+const cmd = require("./helper/cmd");
+
+const run = () => {
+  cmd();
+};
 
 try {
-  if (process.argv[2] === "cmd") {
-    cmd();
-  } else {
-    console.log("error");
-  }
+  run();
 } catch (error) {
-  if (error.code === "ENOENT") {
-    console.log("file Not Found");
-  }
+  console.log(error);
 }
